@@ -6,7 +6,9 @@ Please note that WLAN Pi releases software under the [Contributor Code of Conduc
 
 ## Where do I go from here?
 
-If you've noticed a bug or have a specific feature request, make one! It's typically best if you get confirmation of your bug or approval for your feature request this way before starting to code.
+If you've noticed a bug or have a specific feature request, make one! 
+
+Please get confirmation and approval of your bug (is it reproducible? how so?) or feature request (does it fit with the project?) before starting to code. If you're fixing a bug, open an issue on the respective repo. For features, start a [discussion](https://github.com/WLAN-Pi/feedback/discussions/categories/general-feedback) before coding.
 
 ## Get the style right
 
@@ -20,16 +22,23 @@ Generally, this is the process you'll follow:
 0. Fork and clone the repository you want to contribute to
 0. Configure and install the dependencies
 0. Make sure the tests pass on your machine (if the repository has tests)
-0. Create a new branch: `git checkout -b my-branch-name` (fix/short_bug_desc or feature/widget)
+0. Create a new branch: `git checkout -b my-branch-name` (`fix/short_bug_desc` or `feature/widget`)
 0. Make your change, add tests, and make sure the tests still pass (if the repository has tests)
 0. Push to your fork and submit a pull request
-0. Pat your self on the back and wait for your pull request to be reviewed and merged.
+0. Pat your self on the back and wait for your pull request to be reviewed and merged
 
 We use Github Actions which will run our CI/CD to archive and deploy packages. In some repos, Github actions will run test suites. These must pass before a PR will be accepted and merged.
 
+## Get the documentation right
+
+Make sure you submit documentation along with your code. This might look different depending on what your change is. A bug fix requires less documentation than a new feature.
+
+If your PR is to add a new feature, it is likely documentation will need updated in multiple places. Usage guides. The README.md for the respective repo. Our documentation website [docs.wlanpi.com](https://docs.wlanpi.com).
+
 ## Here are a few things you can do that will increase the likelihood of your pull request being accepted:
 
-- Follow standards for style and code quality
+- Follow standards for style and code quality.
+- Documentation.
 - Write tests.
 - Keep your change as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
 - Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
@@ -51,6 +60,7 @@ Maintainers need to do the following to push out a release:
 
 * Switch to the `main` branch and make sure it's up to date.
 * Update the version info in `debian/changelog` which will trigger a workflow on push to build and deploy a new version of the package to packagecloud. 
+* Update release notes
 
 ## Resources
 
