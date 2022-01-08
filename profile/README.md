@@ -9,7 +9,7 @@ This project is all about providing a multi-purpose Wi-Fi analysis tool built on
 
 ## Contributing
 
-The open-source community is foundational to the WLAN Pi project and which we build upon for the software we code for the WLAN Pi. See [contributing] if you want to get involved!
+The open-source community is foundational to the WLAN Pi project and which we code our software upon for the WLAN Pi. If you're interested check out [contributing](contributing.md).
 
 ## Appendix
 
