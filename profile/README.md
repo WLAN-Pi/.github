@@ -12,4 +12,4 @@ The open-source community is foundational to the WLAN Pi project and which we co
 
 ## Appendix
 
-Please [let us know](https://github.com/github/feedback) if you have any ideas or suggestions about how to improve WLAN Pi.
+Please [let us know](https://github.com/wlan-pi/feedback) if you have any ideas or suggestions about how to improve WLAN Pi.
