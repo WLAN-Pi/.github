@@ -6,18 +6,18 @@ Please note that WLAN Pi releases software under the [Contributor Code of Conduc
 
 ## Where do I go from here?
 
-If you've noticed a bug or have a feature request, make one! It's generally best if you get confirmation of your bug or approval for your feature request this way before starting to code.
+If you've noticed a bug or have a specific feature request, make one! It's typically best if you get confirmation of your bug or approval for your feature request this way before starting to code.
 
 ## Get the style right
 
-Your patch should follow the same conventions & pass the same code quality checks as the rest of the project. 
+Your code should follow the same conventions & pass the same code quality checks as the rest of the project. 
 Check out [WLAN-Pi/developers](https://github.com/WLAN-Pi/developers) to find documentation around style, workflow, processes, and more.
 
 ## Submitting a pull request
 
-Generically, this is the process you'll follow.
+Generally, this is the process you'll follow:
 
-0. Fork and clone the repository you want to contribut to
+0. Fork and clone the repository you want to contribute to
 0. Configure and install the dependencies
 0. Make sure the tests pass on your machine (if the repository has tests)
 0. Create a new branch: `git checkout -b my-branch-name` (fix/short_bug_desc or feature/widget)
@@ -39,7 +39,7 @@ We use Github Actions which will run our CI/CD to archive and deploy packages. I
 A PR can only be merged into `main` by a maintainer if:
 
 * It is passing CI.
-* It has been approved by at least one core maintainers. Potentially two in the future.
+* It has been approved by at least one core maintainers.
 * It has no requested changes.
 * It is up to date with current `main`.
 
