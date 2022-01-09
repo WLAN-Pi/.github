@@ -2,7 +2,7 @@
 
 First off, thank you for being awesome and looking into contributing to WLAN Pi. We're thrilled that you'd like to contribute to this project. And it is people like you that make WLAN Pi a great tool.
 
-Please note that WLAN Pi releases software under the [Contributor Code of Conduct](https://www.contributor-covenant.org/). Please review it. By participating you agree to follow its terms. If you don't vibe with the code of conduct, consider not contributing.
+Please note that WLAN Pi releases software under the [Contributor Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/). Please review it. By participating you agree to follow its terms. If you don't vibe with the code of conduct, consider not contributing.
 
 ## Where do I go from here?
 
