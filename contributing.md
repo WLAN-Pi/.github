@@ -65,5 +65,6 @@ Maintainers need to do the following to push out a release:
 ## Resources
 
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
+- [Figuring out how to contribute to open source](https://jvns.ca/blog/2017/08/06/contributing-to-open-source/)
 - [Using Pull Requests](https://help.github.com/articles/about-pull-requests/)
 - [GitHub Help](https://help.github.com)
