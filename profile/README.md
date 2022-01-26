@@ -4,6 +4,7 @@ This project is all about providing a multi-purpose Wi-Fi analysis tool built on
 
 ## Useful links to check out
 
+* [userguide.wlanpi.com](https://userguide.wlanpi.com/wlanpi-v3/)
 * [docs.wlanpi.com](https://docs.wlanpi.com)
 
 ## Contributing
