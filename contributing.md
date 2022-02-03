@@ -8,12 +8,11 @@ Please note that WLAN Pi releases software under the [Contributor Code of Conduc
 
 If you've noticed a bug or have a specific feature request, make one! 
 
-Please get confirmation and approval of your bug (is it reproducible? how so?) or feature request (does it fit with the project?) before starting to code. If you're fixing a bug, open an issue on the respective repo. For features, start a [discussion](https://github.com/WLAN-Pi/feedback/discussions/categories/general-feedback) before coding.
+Are you working on code already? Cool! Please open an issue (is it reproducible? how so?) or feature request (does it fit with the project?) before getting too far. If you're fixing a bug, open an issue on the respective repo, and then submit and link a PR to that issue. For new features, you're awesome! Thanks! Please start a [discussion](https://github.com/WLAN-Pi/feedback/discussions/categories/general-feedback) before coding.
 
 ## Get the style right
 
-Your code should follow the same conventions & pass the same code quality checks as the rest of the project. 
-Check out [WLAN-Pi/developers](https://github.com/WLAN-Pi/developers) to find documentation around style, workflow, processes, and more.
+Your code should follow the same conventions & pass the same code quality checks as the rest of the project. Style is a work in progress. Do you want to work documentation? We could use help. Check out [WLAN-Pi/developers](https://github.com/WLAN-Pi/developers) to find documentation around style, workflow, processes, and more.
 
 ## Submitting a pull request
 
