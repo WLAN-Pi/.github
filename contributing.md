@@ -2,7 +2,7 @@
 
 First off, thank you for being awesome and looking into contributing to WLAN Pi. We're thrilled that you'd like to contribute to this project. And it is people like you that make WLAN Pi a great tool.
 
-Please note that WLAN Pi releases software under the [Contributor Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/). Please review it. By participating you agree to follow its terms. If you don't vibe with the code of conduct, consider not contributing.
+This is important. Please note that WLAN Pi releases software under the [Contributor Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/). Please review it. By participating you agree to follow its terms. If you do not agree with our code of conduct, do not contribute.
 
 ## Where do I go from here?
 
@@ -10,9 +10,11 @@ If you've noticed a bug or have a specific feature request, make one!
 
 Are you working on code already? Cool! Please open an issue (is it reproducible? how so?) or feature request (does it fit with the project?) before getting too far. If you're fixing a bug, open an issue on the respective repo, and then submit and link a PR to that issue. For new features, you're awesome! Thanks! Please start a [discussion](https://github.com/WLAN-Pi/feedback/discussions/categories/general-feedback) before coding.
 
+Have you never contributed to open source before? Check out the resources at the bottom of this post.
+
 ## Get the style right
 
-Your code should follow the same conventions & pass the same code quality checks as the rest of the project. Style is a work in progress. Do you want to work documentation? We could use help. Check out [WLAN-Pi/developers](https://github.com/WLAN-Pi/developers) to find documentation around style, workflow, processes, and more.
+Your code should follow the same conventions & pass the same code quality checks as the rest of the project. With that said, our documentation, style, and conventions is a work in progress. We could use help. Check out [WLAN-Pi/developers](https://github.com/WLAN-Pi/developers) to find our developer docs around code style, workflow, processes, and more.
 
 ## Submitting a pull request
 
@@ -30,11 +32,13 @@ We use Github Actions which will run our CI/CD to archive and deploy packages. I
 
 ## Get the documentation right
 
-Make sure you submit documentation along with your code. This might look different depending on what your change is. A bug fix requires less documentation than a new feature.
+Make sure you submit documentation along with your code. This might look different depending on what your change is. For example, a bug fix requires less documentation than a new feature, but is still important.
 
-If your PR is to add a new feature, it is likely documentation will need updated in multiple places. Usage guides. The README.md for the respective repo. Our documentation website [docs.wlanpi.com](https://docs.wlanpi.com).
+If your PR is to add a new feature, it is likely documentation will need updated in multiple places. For example: usage guides, README.md for the respective repo, and even our documentation website [docs.wlanpi.com](https://docs.wlanpi.com).
 
-## Here are a few things you can do that will increase the likelihood of your pull request being accepted:
+## Getting your Pull Request accepted
+
+Here are a few things you can do that will increase the likelihood of your pull request being accepted:
 
 - Follow standards for style and code quality.
 - Documentation.
