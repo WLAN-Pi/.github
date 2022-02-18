@@ -17,7 +17,7 @@ Blogs from the team:
 
 ## Contributing
 
-The WLAN Pi community and open source is core to the WLAN Pi project. If you're interested in helping, check out our [contributing](https://github.com/WLAN-Pi/.github/blob/main/contributing.md) notes.
+The Wi-Fi community and open source is core to the WLAN Pi project. If you're interested in helping, check out our [contributing](https://github.com/WLAN-Pi/.github/blob/main/contributing.md) notes.
 
 ## Feedback loop
 
