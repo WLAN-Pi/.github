@@ -9,7 +9,7 @@ WLAN Pi is a multi-purpose Wi-Fi analysis tool built on single-board computers a
 
 ## Contributing ✍️
 
-The open source is essential to the WLAN Pi project. If you're interested in helping, check out our [contributing](https://github.com/WLAN-Pi/.github/blob/main/contributing.md) notes.
+The Wi-Fi community and open source is essential to the WLAN Pi project. If you're interested in helping, check out our [contributing](https://github.com/WLAN-Pi/.github/blob/main/contributing.md) notes.
 
 ## Feedback loop 🎤
 
