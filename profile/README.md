@@ -13,6 +13,10 @@ Looking for where to [download the latest image](https://github.com/WLAN-Pi/pi-g
 
 The Wi-Fi community and open source is essential to the WLAN Pi project. If you're interested in helping, check out our [contributing](https://github.com/WLAN-Pi/.github/blob/main/contributing.md) notes.
 
+## Supporting the project 🙏
+
+Like what we're doing? [Encourage us to keep going and support the development and running cost of the project by donating](https://ko-fi.com/wlanpi).
+
 ## Feedback loop 🎤
 
 Do you have ideas on how to improve WLAN Pi? Please [let us know](https://github.com/wlan-pi/feedback).
