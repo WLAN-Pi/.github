@@ -7,7 +7,9 @@ WLAN Pi is a multi-purpose Wi-Fi analysis tool built on single-board computers a
 * [Latest docs](https://userguide.wlanpi.com/)
 * [Legacy docs](https://wlan-pi.github.io/wlanpi-documentation/v2/)
 
-Looking for where to [download the latest image](https://github.com/WLAN-Pi/pi-gen/releases/latest)?
+## Downloads 📥
+
+[Download the latest released WLAN Pi OS image here](https://github.com/WLAN-Pi/pi-gen/releases/latest).
 
 ## Contributing ✍️
 
