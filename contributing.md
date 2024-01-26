@@ -2,13 +2,15 @@
 
 First off, thank you for being awesome and looking into contributing to WLAN Pi. We're thrilled that you'd like to contribute to this project. And it is people like you that make WLAN Pi a great tool.
 
-This is important. Please note that WLAN Pi releases software under the [Contributor Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/). Please review it. By participating you agree to follow its terms. If you do not agree with our code of conduct, do not contribute.
+This is important. Please note that WLAN Pi releases software under the [Contributor Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/). By participating you agree to follow its terms. If you do not agree with our code of conduct, do not contribute.
 
 ## Where do I go from here?
 
 If you've noticed a bug or have a specific feature request, make one! 
 
-Are you working on code already? Cool! Please open an issue (is it reproducible? how so?) or feature request (does it fit with the project?) before getting too far. If you're fixing a bug, open an issue on the respective repo, and then submit and link a PR to that issue. For new features, you're awesome! Thanks! Please start a [discussion](https://github.com/WLAN-Pi/feedback/discussions/categories/general-feedback) before coding.
+Are you working on code already? Cool! Please open an issue (is it reproducible? how so?) or feature request (does it fit with the project?) before getting too far.
+
+If you're fixing a bug, open an issue on the respective repo, and then submit and link a PR to that issue. For new features, you're awesome! Thanks! Please consider talking to a team member and starting a [discussion](https://github.com/WLAN-Pi/feedback/discussions/categories/general-feedback) before spending too much time on coding to make sure everyone is on the same page.
 
 Have you never contributed to open source before? Check out the resources at the bottom of this post.
 
