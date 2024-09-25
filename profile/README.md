@@ -1,6 +1,10 @@
 # Hi there! 👋
 
-WLAN Pi is a multi-purpose Wi-Fi analysis tool built on single-board computers and open-source software. Here on GitHub is where we're building custom software for the WLAN Pi. GitHub helps us share and track code with version control, build software and automate deployments, accept code contributions, and more!
+WLAN Pi is a multi-purpose tool for Wi-Fi professionals built on single-board computers and open-source software. Here on GitHub is where we host our custom software to share and track code with version control, build and automate deployments, accept code contributions, and more!
+
+## Home page
+
+[wlanpi.com](https://www.wlanpi.com/)
 
 ## Documentation 📃
 
@@ -13,7 +17,7 @@ WLAN Pi is a multi-purpose Wi-Fi analysis tool built on single-board computers a
 
 ## Contributing ✍️
 
-The Wi-Fi community and open source is essential to the WLAN Pi project. If you're interested in helping, check out our [contributing](https://github.com/WLAN-Pi/.github/blob/main/contributing.md) and [developer](https://github.com/WLAN-Pi/developers) notes.
+The Wi-Fi and open source communities are essential to the WLAN Pi project. If you're interested in helping, check out our [contributing](https://github.com/WLAN-Pi/.github/blob/main/contributing.md), [developer](https://github.com/WLAN-Pi/developers) notes, and browse the repo you're interested in contributing to.
 
 ## Feedback loop 🎤
 
