@@ -17,7 +17,7 @@ WLAN Pi is a multi-purpose tool for Wi-Fi professionals built on single-board co
 
 ## Contributing ✍️
 
-The Wi-Fi and open source communities are essential to the WLAN Pi project. If you're interested in helping, check out our [contributing](https://github.com/WLAN-Pi/.github/blob/main/contributing.md), [developer](https://github.com/WLAN-Pi/developers) notes, and browse the repo you're interested in contributing to.
+The Wi-Fi and open source communities are essential to the WLAN Pi project. If you're interested in helping, check out our [contributing](https://github.com/WLAN-Pi/.github/blob/main/contributing.md) and [developer](https://github.com/WLAN-Pi/developers) notes, and browse the repo you're interested in contributing to.
 
 ## Feedback loop 🎤
 
