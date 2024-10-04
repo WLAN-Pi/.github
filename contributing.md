@@ -6,7 +6,7 @@ This is important. Please note that WLAN Pi releases software under the [Contrib
 
 ## Where do I go from here?
 
-If you've noticed a bug or have a specific feature request, make one! 
+If you've noticed a bug or have a specific feature request, make one! Notice multiple bugs? Create separately focused issues for each one.
 
 Are you working on code already? Cool! Please open an issue (is it reproducible? how so?) or feature request (does it fit with the project?) before getting too far.
 
@@ -30,13 +30,13 @@ Generally, this is the process you'll follow:
 0. Push to your fork and submit a pull request
 0. Pat your self on the back and wait for your pull request to be reviewed and merged
 
-We use Github Actions which will run our CI/CD to archive and deploy packages. In some repos, Github actions will run test suites. These must pass before a PR will be accepted and merged.
+We use Github Actions which will run our CI/CD to archive and deploy packages. In some repos, Github actions will run test suites and other checks. These must pass before a PR will be accepted and merged.
 
 ## Get the documentation right
 
-Make sure you submit documentation along with your code. This might look different depending on what your change is. For example, a bug fix requires less documentation than a new feature, but is still important.
+Make sure you submit any corresponding documentation updates along with your code. This might look different depending on what your change is. For example, a bug fix requires less documentation than a new feature, but is still important to note in commit messages and changelogs.
 
-If your PR is to add a new feature, it is likely documentation will need updated in multiple places. For example: usage guides, README.md for the respective repo, and even our documentation website [docs.wlanpi.com](https://docs.wlanpi.com).
+If your PR is to add a new feature, it is likely documentation will need updated in multiple places. For example: usage guides, README.md for the respective repo, man pages, and even our documentation website [docs.wlanpi.com](https://docs.wlanpi.com).
 
 ## Getting your Pull Request accepted
 
@@ -50,12 +50,12 @@ Here are a few things you can do that will increase the likelihood of your pull 
 
 ##  Merging a PR (maintainers only)
 
-A PR can only be merged into `main` by a maintainer if:
+A PR should only be merged into `main` by a maintainer if:
 
-* It is passing CI.
+* It is passing CI (tests/checks).
 * It has been approved by at least one core maintainers.
 * It has no requested changes.
-* It is up to date with current `main`.
+* It is up to date with current `main` and does not erase or re-write history.
 
 Any maintainer is allowed to merge a PR if all of these conditions are met.
 
@@ -64,8 +64,8 @@ Any maintainer is allowed to merge a PR if all of these conditions are met.
 Maintainers need to do the following to push out a release:
 
 * Switch to the `main` branch and make sure it's up to date.
-* Update the version info in `debian/changelog` which will trigger a workflow on push to build and deploy a new version of the package to packagecloud. 
-* Update release notes
+* Update the version info in `debian/changelog` which will trigger a workflow on push to build and deploy a new version of the package to packagecloud. This CI will also check that the Python package version (`<package>/__version__.py`) aligns with the Debian package version (`debian/changelog`).
+* Update release notes accordingly
 
 ## Resources
 
