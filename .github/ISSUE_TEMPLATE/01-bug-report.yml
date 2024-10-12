@@ -1,0 +1,53 @@
+name: 🐛 Bug report
+description: Create a report to help us fix something
+title: "[BUG]: <title>"
+labels: ['bug, untriaged']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill out this bug report!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect?
+      placeholder: Tell us what happened and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      value: 
+      render: shell
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: How often does this bug happen?
+      description: |
+        Following the repro steps above, how easily are you able to reproduce this bug?
+      options:
+        - Every time
+        - Often
+        - Sometimes
+        - Only once
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: What version are you using?
+      description: |
+        Please provide the version of software where this issue occurred.
+    validations:
+      required: true
+  - type: checkboxes
+    id: contribs
+    attributes:
+      label: Contribution Guidelines and Policies
+      description: Please review our [contributing](), [code of conduct](), and [disclaimer]() documentation before contributing.
+      options:
+        - label: I have read the guidelines and agree to follow the Code of Conduct and contribution policies
+          required: true
