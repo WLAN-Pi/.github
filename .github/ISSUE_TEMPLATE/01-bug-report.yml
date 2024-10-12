@@ -46,7 +46,7 @@ body:
   - type: checkboxes
     id: contribs
     attributes:
-      label: Contributor Rules and Policies
+      label: Guidelines and Policies
       description: Please review our [contributing guidelines and policies](https://github.com/WLAN-Pi/.github/blob/main/docs/contributing.md), [code of conduct](https://github.com/WLAN-Pi/.github/blob/main/docs/code_of_conduct.md), and [disclaimer](https://github.com/WLAN-Pi/.github/blob/main/docs/disclaimer.md) before contributing.
       options:
         - label: I have read the contributing guidelines and agree to follow the code of conduct and contribution policies.
