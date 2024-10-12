@@ -1,10 +1,10 @@
 # Contributing
 
-First off, thank you for being awesome and looking into contributing to the software powering WLAN Pi. We're thrilled that you'd like to contribute to this project. And it is people like you that make WLAN Pi a great tool. Please first review our policy, code of conduct, and developer guidelines before proceeding.
+First off, thank you for being awesome and looking into contributing to the software powering WLAN Pi. We're thrilled that you'd like to contribute to this project. And it is people like you that make WLAN Pi a great tool. Please first review our policy, code of conduct, and developer guidelines below before proceeding.
 
 **Policy**:
 
-WLAN Pi does not endorse, support, or condone the use of its software for malicious, illegal, or unethical purposes, or to cause direct or indirect harm. By contributing to the software used by WLAN Pi, you agree to comply with all applicable laws and ethical standards. If you don't agree with these terms, do not contribute.
+WLAN Pi does not endorse, support, or condone the use of its software for malicious, illegal, or unethical purposes, or to cause direct or indirect harm. By contributing to the software used by WLAN Pi, you agree to comply with all applicable laws and ethical standards. If you don't agree with these terms, do not contribute. Review our [disclaimer](disclaimer.md).
 
 **Code of Conduct**:
 
