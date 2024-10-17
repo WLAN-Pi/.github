@@ -1,8 +1,8 @@
 # Contributing
 
-First off, thank you for being awesome and looking into contributing to the software powering the WLAN Pi. There are multiple projects that make up the applications and OS. If you're interested in contributing to WLAN Pi, hopefully, this page will help you.
+First off, thank you for being awesome and looking into contributing to the multiple applications and OS powering the WLAN Pi. This page aims to help you get started.
 
-The [Open Source Guides](https://opensource.guide/) website has a useful collection of resources for folks who want to learn how to run and contribute to open source projects. Seasoned and people new to open source will find the guides useful.
+The [Open Source Guides](https://opensource.guide/) website has a useful collection of resources for folks who want to learn how to run and contribute to open source projects. Both seasoned contributors and people new to open source will find the guide useful.
 
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 
@@ -16,23 +16,23 @@ Additionally, WLAN Pi does not endorse, support, or condone the use of its softw
 
 ## Getting Involved 
 
-We're thrilled that you'd like to contribute to this project. And it is people like you that make WLAN Pi a great tool.
+We're thrilled that you'd like to contribute to this project. And people like you make WLAN Pi a great tool. One of the best places to start is by working on something that you use. Ideally, start with fixing a bug or issue that directly bothers you.
 
 There are different ways to contribute to WLAN Pi and some of them don't include writing any code.
 
-- If you've noticed a bug or have a specific feature request, make one! Notice multiple bugs? Create separately focused issues for each one.
-
-- Are you working on code already? Cool! Please open an issue (is it reproducible? how so?) or feature request (does it fit with the project?) before getting too far.
+- If you've noticed a bug or have a specific feature request, make one! Notice multiple bugs? Create separately focused issues for each.
 
 - If you're fixing a bug, open an issue on the respective repo, and then submit and link a PR to that issue. For new features, you're awesome! Thanks! Please consider talking to a team member and starting a [discussion](https://github.com/WLAN-Pi/feedback/discussions/categories/general-feedback) before spending too much time on coding to make sure everyone is on the same page.
 
-- Have you never contributed to open source before? That's OK! Contributing to open source could be anything from updating documentation, triaging issues and bugs, or writing code.
+- Are you working on code already? Cool! Please open an issue (is the issue reproducible? how so?) or feature request (does the feature fit with the project?) before getting too far.
+
+- Have you never contributed to open source before? That's OK! Contributing to open source could be anything from updating documentation, triaging issues, and bugs, or writing code.
 
 ## Triaging Issues and Pull Requests
 
 One way you can contribute without writing any code is to help triage issues and pull requests.
 
-- Ask for more information if you believe there is not enough details to solve the issue.
+- Ask for more information if you believe there are not enough details to solve the issue.
 - Flag issues that are stale or that should be closed.
 - Ask for test plans and review code.
 
@@ -51,36 +51,31 @@ Please be aware of the following things when filing bug reports:
 
 1. Avoid raising duplicate issues. *Please* use the GitHub issue search feature
 to check whether your bug report or feature request has been mentioned in
-the past. Duplicate bug reports and feature requests are a huge maintenance
-burden on the project maintainers. If it is clear from your report that you 
-would have struggled to find the original, that's ok, but if searching for 
-a selection of words in your issue title would have found the duplicate
-then the issue will likely be closed.
+the past.
 
 2. When filing bug reports about exceptions or tracebacks, please include the
-*complete* traceback. Partial tracebacks, or just the exception text, are
-not helpful.
+*complete* traceback. Partial tracebacks, or just the exception text, may not be enough for us to help you.
 
 3. Make sure you provide a suitable amount of information to work with. This
 means you should provide:
 
 - Guidance on **how to reproduce the issue**. Ideally, this should be a
  *small* code sample that can be run immediately by the maintainers.
- Failing that, let us know what you're doing, how often it happens, what
- environment you're using, etc. Be thorough: it prevents us needing to ask
+ Failing that, let us know what you're doing, how often the issue happens, what
+ environment you're using, etc. Being thorough will prevent us needing to ask
  further questions.
 - Tell us **what you expected to happen**. When we run your example code,
  what are we expecting to happen? What does "success" look like for your
  code?
 - Tell us **what actually happens**. It's not helpful for you to say "it
- doesn't work" or "it fails". Tell us *how* it fails: do you get an
+ doesn't work" or "it fails". Tell us *how* the failure happens: do you get an
  exception? How was the actual result different from your expected result?
 - Tell us **what version you're using**, and
  **how you installed it**. Different versions behave
  differently and have different bugs.
 
-If you do not provide all of these things, it can take us much longer to
-fix your problem. If we ask you to clarify these and you never respond, we
+If you do not provide all of these things, time to resolution will take us much longer to
+fix your problem. If we ask you to clarify something and you never respond, we
 will close your issue without fixing it.
 
 ## Development Process
@@ -108,9 +103,9 @@ If you're only fixing a bug, it's fine to submit a pull request right away but w
 
 Your code contributions should follow the same conventions and pass the same code quality checks as the rest of the project. Take a look around at the rest of the code in the particular project for ideas. Match the style you see used throughout the project such as formatting, naming files, etc.
 
-If you're writing documentation, please do not wrap lines. Configure your editor to soft wrap for documentation.
+If you're writing documentation, please do not wrap lines. Configure your editor to softwrap for documentation.
 
-With that said, our documentation, style, and conventions are a work in progress welcome to suggestions for improvement. Check out [WLAN-Pi/developers](https://github.com/WLAN-Pi/developers) to find our developer docs around code style, workflow, and processes.
+With that said, our documentation, style, and conventions are a work in progress welcoming suggestions for improvement. Check out [WLAN-Pi/developers](https://github.com/WLAN-Pi/developers) to find our developer docs around code style, workflow, and processes.
 
 ## Submitting a pull request
 
@@ -119,7 +114,7 @@ Ok, so you want to contribute code to WLAN Pi by opening a pull request. You're 
 Checklist:
 
 0. Keep your PR small. These are easier to review and get merged. Your PR in general should only do one thing. Otherwise, likely needs split into multiple PRs.
-0. Use descriptive titles. Start with feat, fix, docs, refactor, test, or chore. Follow with a summary in present tense. for example: `fix: fix FPMS crash`.
+0. Use descriptive titles. Start with feat, fix, docs, refactor, test, or chore. Follow with a summary in the present tense. for example: `fix: address profiler crash on Rx of certain (re)assoc frames`.
 0. Test your changes. Describe how to test and validate your contribution.
 
 Generally, this is the process you'll follow:
@@ -131,7 +126,7 @@ Generally, this is the process you'll follow:
 0. Create a new branch: `git checkout -b <branch name>` (for how to name your branch see [https://github.dev/WLAN-Pi/developers])
 0. Make your change, add tests, and make sure the tests still pass (if the repository has tests)
 0. Push to your fork and submit a pull request
-0. Pat your self on the back and wait for your pull request to be reviewed and merged
+0. Pat yourself on the back and wait for your pull request to be reviewed and merged
 
 We use Github Actions which will run our CI/CD to archive and deploy packages. In some repos, Github actions will run test suites and other checks. These must pass before a PR will be accepted and merged.
 
@@ -141,17 +136,17 @@ If you're adding breaking changes, make sure to note that in the PR.
 
 
 ```
-0. Who is affected
-0. What needs migrated
-0. Why this breaking change
-0. Severity
+1. Who is affected
+2. What needs migrated
+3. Why this breaking change
+4. Severity
 ```
 
 ## Get the documentation right
 
-Make sure you submit any corresponding documentation updates along with your code. This might look different depending on what your change is. For example, a bug fix requires less documentation than a new feature, but is still important to note in commit messages and changelogs.
+Make sure you submit any corresponding documentation updates along with your code. This might look different depending on what your change is. For example, a bug fix requires less documentation than a new feature but is still important to note in commit messages and changelogs.
 
-If your PR is to add a new feature, it is likely documentation will need updated in multiple places. For example: usage guides, README.md for the respective repo, man pages, and even our documentation website [docs.wlanpi.com](https://docs.wlanpi.com).
+If your PR is to add a new feature, the odds are documentation will need updated in multiple places. For example usage guides, README.md for the respective repo, man pages, and even our documentation website [docs.wlanpi.com](https://docs.wlanpi.com).
 
 ## Getting your Pull Request accepted
 
@@ -165,14 +160,14 @@ Here are a few things you can do that will increase the likelihood of your pull 
 
 ##  Merging a PR (maintainers only)
 
-A PR should only be merged into `main` by a maintainer if:
+A PR should only be merged into the default branch if:
 
-* It is passing CI (tests/checks).
-* It has been approved by at least one core maintainers.
-* It has no requested changes.
-* It is up to date with current `main` and does not erase or re-write history.
+* PR is passing CI (tests/checks).
+* PR has been approved by a code owner.
+* PR has no requested changes by a reviewer.
+* PR is up to date with the default branch and does not erase or re-write history.
 
-Any maintainer is allowed to merge a PR if all of these conditions are met. PRs should be squash-merged into the `main` branch. 
+PRs should be squash-merged into the default branch.
 
 ## Shipping a release (maintainers only)
 
