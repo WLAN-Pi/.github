@@ -15,6 +15,24 @@ body:
       placeholder: Tell us what you think could be enhanced and why.
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: Motivation
+      description: |
+        Please describe the motivation and why the feature should be implemented. Will this benefit a lot of users?
+
+        We may expect you to put your own work in this feature, particularly if the feature is not will not be requested by a lot of users. If the value of the feature is easy to understand, how the feature should work is clear, and will have big impact, we are more willing to help bring the feature to life.
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Self Service
+      description: |
+        If you feel like you could contribute to this feature, please check the box below. This would tell us and other people looking for contributions that someone is working on it.
+        
+        If you do check this box, please send a pull request in the next week or two so we can still delegate this to someone else if you do not submit one.
+      options:
+        - label: I would be willing to fix this feature myself.
   - type: checkboxes
     id: contribs
     attributes:

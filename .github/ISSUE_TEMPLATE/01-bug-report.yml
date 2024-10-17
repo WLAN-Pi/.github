@@ -6,7 +6,13 @@ body:
   - type: markdown
     attributes:
       value: |
+        ## Please help us help you!
+
         Thank you for taking the time to fill out this bug report!
+
+        **The GitHub issue tracker is not a support forum**. If you are not sure whether the issue could be your mistakes, ask in the [GitHub discussions](https://github.com/WLAN-Pi/feedback/discussions) first. The quickest way to verify whether it's a WLAN Pi problem is through **reproduction**.
+
+        Make the bug obvious. Ideally, we should be able to understand the issue without running any code.
   - type: textarea
     id: what-happened
     attributes:
@@ -43,6 +49,15 @@ body:
         Please provide the version of software where this issue occurred.
     validations:
       required: true
+  - type: checkboxes
+    attributes:
+      label: Self Service
+      description: |
+        If you feel like you could contribute to this issue, please check the box below. This would tell us and other people looking for contributions that someone is working on it.
+        
+        If you do check this box, please send a pull request in the next week or two so we can still delegate this to someone else if you do not submit one.
+      options:
+        - label: I would be willing to fix this bug myself.
   - type: checkboxes
     id: contribs
     attributes:
