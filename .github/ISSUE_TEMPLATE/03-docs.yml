@@ -1,0 +1,50 @@
+name: 📚 Documentation
+description: Report an issue related to documentation
+title: "[DOCS]: <title>"
+labels: ['bug, untriaged']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This template is used for documentation requests, including:
+
+        - Documenting undocumented feature functionality
+        - Elaborating or expanding on a topic
+        - Updating linkrot
+        - Updating usage examples
+        - Anything that doesn't include modifying code
+
+        If you followed documentation but something still doesn't work, consider if the docs are wrong or the code is wrong. If the latter, use the bug report template instead.
+
+        If your docs update or request is:
+
+        - Relevant to a significant number of WLAN Pi users
+        - Not about external tools or packages not supported by WLAN PI
+        - Not documented elsewhere or easily discoverable
+
+        We will very likely accept and merge a related pull request. Go a head and make the pull request.
+
+        If you are not able to make the contribution yourself, we welcome the issue. 
+  - type: textarea
+    attributes:
+      label: Description
+      description: A succinct description of what the issue is.
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Self Service
+      description: |
+        If you feel like you could contribute to this issue, please check the box below. This would tell us and other people looking for contributions that someone is working on it.
+        
+        If you do check this box, please send a pull request in the next week or two so we can still delegate this to someone else if you do not submit one.
+      options:
+        - label: I would be willing to fix this bug myself.
+  - type: checkboxes
+    id: contribs
+    attributes:
+      label: Guidelines and Policies
+      description: Please review our [contributing guidelines and policies](https://github.com/WLAN-Pi/.github/blob/main/docs/contributing.md), [code of conduct](https://github.com/WLAN-Pi/.github/blob/main/docs/code_of_conduct.md), and [disclaimer](https://github.com/WLAN-Pi/.github/blob/main/docs/disclaimer.md) before contributing.
+      options:
+        - label: I have read the contributing guidelines and agree to follow the code of conduct and contribution policies.
+          required: true
