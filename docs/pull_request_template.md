@@ -1,6 +1,12 @@
 ## Type of change 
 
-*Pick at least one.*
+<!--
+Feel free to remove sections and items that don't pertain to the context of your PR.
+For example, if you're updating docs, you don't need the testing section.
+Note that you do not need to delete these HTML comments as they are not visible after the PR is submitted.
+-->
+
+<!-- *Pick at least one.* -->
 
 * [ ] Bug fix (non-breaking change that fixes something)
 * [ ] Documentation update (readme, changelog, man page, etc.)
@@ -11,7 +17,7 @@
 
 ## Breaking change
 
-*Does this Pull Request introduce a breaking change?* 
+<!-- *Does this Pull Request introduce a breaking change?* -->
 
 - What functionality breaks?
 - Why does it break?
@@ -20,13 +26,13 @@
 
 ## Proposed change
 
-*Please describe the purpose of this change, the problem it solves, and why the change is necessary. Including code snippets or links to related documentation when applicable will assist approval.*
+<!-- *Please describe the purpose of this change, the problem it solves, and why the change is necessary. Including code snippets or links to related documentation when applicable will assist approval.* -->
 
-
+Replace this line with what your change is about. Why, what, and implementations details are helpful.
 
 ## Testing
 
-*Please explain how you tested this change manually, and if applicable, what new tests you added.*
+<!-- *Please explain how you tested this change manually, and if applicable, what new tests you added.* -->
 
 - [ ] Did you add new automated tests? If yes, explain which edge cases are covered.
 - [ ] Does this change affect any existing tests? If so, how did you adjust them?
@@ -34,16 +40,18 @@
 
 ## Checklist
 
+<!-- No PR without a related GH issue! Conversations about your PR efforts in other channels such as electronic mail, social media, morse code, homing pigeon, or slack are great starting points, but **do not count** for this requirement. --> 
+
 * [ ] I have read the [contribution guidelines and policies](https://github.com/WLAN-Pi/.github/blob/main/docs/contributing.md)
-* [ ] I have targeted this PR against the correct git branch
+* [ ] I have targeted this PR against the correct git branch (this can vary depending on the default branch of the repo)
 * [ ] I ran the test suite and verified it succeeded
-* [ ] I linked an approved GitHub issue to this PR (in the next section). No PR without a related GH issue. Conversations about your PR efforts in other channels such as electronic mail, social media, morse code, and WLAN Pi Slack **do not count**.
+* [ ] I linked a GitHub issue to this PR (in the next section). 
 * [ ] I have updated the changelog (if applicable)
 * [ ] I have added or updated the documentation (if applicable)
 
 ## Related Issues/PRs
 
-*Pick at least one.*
+<!-- *Pick at least one. Delete the other lines.* -->
 
 - This PR fixes/closes issue #
 - This PR is related to issue #
