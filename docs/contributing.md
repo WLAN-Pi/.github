@@ -73,6 +73,7 @@ means you should provide:
 - Tell us **what version you're using**, and
  **how you installed it**. Different versions behave
  differently and have different bugs.
+- Tell us **where the bug is in the code** if you know. This helps other developers quickly resolve the bug if you are not solving it yourself.
 
 If you do not provide all of these things, time to resolution will take us much longer to
 fix your problem. If we ask you to clarify something and you never respond, we
