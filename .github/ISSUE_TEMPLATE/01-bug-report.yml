@@ -49,6 +49,13 @@ body:
         Please provide the version of software where this issue occurred.
     validations:
       required: true
+  - type: input
+    attributes:
+      label: Where is the bug located?
+      description: |
+        If known, please provide a link to where you think the bug exists in the code.
+    validations:
+      required: false
   - type: checkboxes
     attributes:
       label: Self Service
