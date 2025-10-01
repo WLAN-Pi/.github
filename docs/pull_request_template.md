@@ -38,6 +38,16 @@ Replace this line with what your change is about. Why, what, and implementations
 - [ ] Does this change affect any existing tests? If so, how did you adjust them?
 - [ ] Please provide test run results or screenshots if applicable.
 
+## LLM/AI usage
+
+<!-- *Please disclose any use of LLMs or AI coding assistants in creating this PR.* -->
+
+- [ ] I used an LLM or AI coding assistant for this PR
+- If yes, please describe:
+  - Which tool(s) and model(s) were used (e.g., Gemini 2.5 Flash, Claude 4.5 Sonnet, Copilot GPT-4, ChatGPT GPT-5)?
+  - What portions of the code and PR were assisted?
+  - Have you reviewed and tested all generated code for correctness?
+
 ## Checklist
 
 <!-- No PR without a related GH issue! Conversations about your PR efforts in other channels such as electronic mail, social media, morse code, homing pigeon, or slack are great starting points, but **do not count** for this requirement. --> 
