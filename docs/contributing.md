@@ -165,22 +165,7 @@ Here are a few things you can do that will increase the likelihood of your pull 
 - Keep your change as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
 - Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
 
-##  Merging a PR (maintainers only)
+## Maintainer Documentation
 
-A PR should only be merged into the default branch if:
-
-* PR is passing CI (tests/checks).
-* PR has been approved by a code owner.
-* PR has no requested changes by a reviewer.
-* PR is up to date with the default branch and does not erase or re-write history.
-
-PRs should be squash-merged into the default branch.
-
-## Shipping a release (maintainers only)
-
-Maintainers need to do the following to push out a release:
-
-* Switch to the `main` branch and make sure it's up to date.
-* Update the version info in `debian/changelog` which will trigger a workflow on push to build and deploy a new version of the package to packagecloud. This CI will also check that the Python package version (`<package>/__version__.py`) aligns with the Debian package version (`debian/changelog`).
-* Update release notes accordingly
+For core team members, detailed maintainers procedures (merging PRs, shipping releases, tagging) are documented in the [WLAN-Pi/developers](https://github.com/WLAN-Pi/developers) repository.
 
