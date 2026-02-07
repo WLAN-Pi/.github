@@ -16,8 +16,8 @@ Responsible disclosure helps us maintain the security and integrity of WLAN Pi a
 
 For potential critical vulnerabilities, we ask that you report them discreetly to avoid public disclosure until a patch is available. Please use the following contact information for vulnerability reporting:
 
-Email: [<TODO>]
+Email: [team@wlanpi.com](mailto:team@wlanpi.com)
 
-PGP Key: <TODO>
+PGP Key: [Download PGP Key](wlanpi-vuln-publickey.asc)
 
 We will acknowledge receipt of your report and keep you informed as we work to address the issue. We will attempt to address within a reasonable time frame, depending on severity and scope.
