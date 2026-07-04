@@ -21,16 +21,13 @@
 - [ ] Tested manually on a WLAN Pi
 - [ ] Tested in another environment
 
-## AI assistance
-
-- [ ] I used AI/LLM assistance
-- If yes: Tool(s) used: 
-
 ## Checklist
 
-- [ ] I have read the [contribution guidelines](https://github.com/WLAN-Pi/.github/blob/main/docs/contributing.md)
+- [ ] I have read the [contribution guidelines](https://github.com/WLAN-Pi/developers/blob/main/CONTRIBUTING.md)
 - [ ] I targeted the correct branch (in general: `dev` for features/fixes, `main` for hotfixes)
 - [ ] This PR fixes/closes issue #_ (or relates to issue #_)
+
+AI assistance is welcome. Just make sure you have reviewed and tested what you are submitting.
 
 ## Breaking changes
 
