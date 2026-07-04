@@ -10,9 +10,9 @@ WLAN Pi adopts the [Contributor Code of Conduct](code_of_conduct.md). By partici
 
 WLAN Pi does not endorse, support, or condone the use of its software for malicious, illegal, or unethical purposes. By contributing, you agree to comply with all applicable laws and ethical standards. [Disclaimer](disclaimer.md).
 
-## AI and LLM assistance disclosure
+## AI assistance
 
-Please disclose if you've used AI tools (GitHub Copilot, ChatGPT, Claude, Gemini, Moonshot, etc.) to assist in developing your contribution. Mention any AI assistance in your PR description.
+AI assistance is welcome. Just make sure you have reviewed and tested what you are submitting.
 
 ## Getting involved
 
