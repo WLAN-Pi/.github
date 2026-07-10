@@ -7,4 +7,4 @@
 
 <!-- How did you test this? -->
 
-> AI assistance is welcome. Just make sure you have reviewed and tested what you are submitting. Large PRs take longer to review. Keep changes focused when you can.
+<!-- AI assistance is welcome. Just make sure you have reviewed and tested what you are submitting. Large PRs take longer to review. Keep changes focused when you can. -->
