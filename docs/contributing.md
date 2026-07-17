@@ -12,7 +12,7 @@ WLAN Pi does not endorse, support, or condone the use of its software for malici
 
 ## AI assistance
 
-AI assistance is welcome. Just make sure you have reviewed and tested what you are submitting.
+AI assistance is welcome. Please have your agent self-review (e.g. reflection or orchestrator-worker patterns), then review and test the result yourself.
 
 ## Getting involved
 
