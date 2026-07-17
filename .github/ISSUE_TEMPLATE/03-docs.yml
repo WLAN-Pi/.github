@@ -4,8 +4,9 @@ title: "[DOCS]: <title>"
 labels: ['documentation', 'untriaged']
 body:
   - type: textarea
+    id: what-to-update
     attributes:
       label: What needs to be updated?
-      description: Link to the relevant doc if you can.
+      description: Link to the relevant doc if one exists.
     validations:
       required: true
