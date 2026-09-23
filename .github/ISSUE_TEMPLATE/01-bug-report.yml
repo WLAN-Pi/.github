@@ -1,41 +1,50 @@
 name: 🐛 Bug report
-description: Create a report to help us fix something
-title: "[BUG]: <title>"
+description: Something isn't working as expected
+title: "[BUG]: "
 labels: ['bug', 'untriaged']
 body:
   - type: markdown
     attributes:
       value: |
-        Before filing, check if this issue already exists. For usage questions, use [discussions](https://github.com/WLAN-Pi/feedback/discussions) instead.
+        Thanks for reporting this. Fill in what you can and we'll ask if we need more.
+        Not sure it's a bug? Ask in [discussions](https://github.com/WLAN-Pi/feedback/discussions).
   - type: textarea
     id: what-happened
     attributes:
       label: What happened?
-      placeholder: Describe the bug and what you expected to happen instead.
+      placeholder: What you did, what happened, and what you expected instead.
     validations:
       required: true
   - type: textarea
     id: reproduce
     attributes:
       label: Steps to reproduce
+      description: If it only happened once or happens sometimes, say so.
       placeholder: |
         1. ...
         2. ...
-        3. ...
     validations:
-      required: true
+      required: false
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware
+      description: WLAN Pi model and Wi-Fi adapter. Pasting the output of `wlanpi-model` covers both.
+      render: text
+    validations:
+      required: false
   - type: input
     id: version
     attributes:
       label: Version
-      description: WLAN Pi OS version, package version, or any other relevant version reference.
+      description: Image version from `cat /etc/wlanpi-release`, or package version from `dpkg -l <package>`.
     validations:
       required: false
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Optional but very helpful.
+      label: Log output
+      description: Errors, `journalctl -u <service>`, or debug output. Remove anything private, like passwords.
       render: shell
     validations:
       required: false

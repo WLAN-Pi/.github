@@ -1,6 +1,6 @@
 name: 📚 Documentation
 description: Report a documentation issue or request an improvement
-title: "[DOCS]: <title>"
+title: "[DOCS]: "
 labels: ['documentation', 'untriaged']
 body:
   - type: textarea

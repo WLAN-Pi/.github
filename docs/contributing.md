@@ -18,14 +18,14 @@ AI assistance is welcome. Please have your agent self-review (e.g. reflection or
 
 There are different ways to contribute, and some don't include writing code:
 
-- **Report bugs** - Create an issue (one bug per issue)
-- **Request features** - Start a [discussion](https://github.com/WLAN-Pi/feedback/discussions) first
+- **Report bugs** - Open an issue (one bug per issue)
+- **Request features** - Open a feature request, or start a [discussion](https://github.com/WLAN-Pi/feedback/discussions) if you'd like to talk it through first
 - **Triage issues** - Help review and organize open issues
 - **Write code** - See developer docs for workflow
 
 ## Questions
 
-Please don't use GitHub issues for usage questions. Use [feedback discussions](https://github.com/WLAN-Pi/feedback) instead.
+For setup help and how-to questions, [feedback discussions](https://github.com/WLAN-Pi/feedback/discussions) is usually the fastest way to get an answer.
 
 ## Detailed documentation
 
